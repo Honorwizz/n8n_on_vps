@@ -58,7 +58,9 @@ dig +short example.com A @8.8.8.8
 Скачай скрипт:
 
 ```bash
-curl -fsSL -o install-n8n-nginx-ssl.sh https://example.com/install-n8n-nginx-ssl.sh
+curl -fsSL -o install-n8n-nginx-ssl.sh \
+  https://raw.githubusercontent.com/Honorwizz/n8n_on_vps/main/install-n8n-nginx-ssl.sh
+
 chmod +x install-n8n-nginx-ssl.sh
 ```
 
